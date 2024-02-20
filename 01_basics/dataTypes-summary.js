@@ -33,3 +33,28 @@ console.log(typeof outsideTemp);
 // Reference (Non primitive)
 
 // Array, Objects, Functions
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive), Heap (Non-Primitive)
+
+let myName = "Sanjay"
+
+let anotherName = myName
+anotherName = "San"
+
+console.log(anotherName);
+console.log(myName);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "san@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
